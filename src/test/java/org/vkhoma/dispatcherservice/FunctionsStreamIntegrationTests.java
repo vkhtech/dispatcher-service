@@ -17,7 +17,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
 @Import(TestChannelBinderConfiguration.class)
-public class FunctionsStreamIntegrationTests {
+class FunctionsStreamIntegrationTests {
 
     @Autowired
     private InputDestination input;
